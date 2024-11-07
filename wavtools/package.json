@@ -1,5 +1,5 @@
 {
-  "name": "wavtools",
+  "name": "@upspawn/wavtools",
   "version": "0.1.0",
   "description": "A comprehensive audio processing library for browser-based audio recording, streaming, and analysis",
   "type": "module",
@@ -7,6 +7,7 @@
   "module": "index.js",
   "types": "index.d.ts",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no tests specified\" && exit 1"
   },
   "keywords": [
@@ -21,10 +22,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexerm/wavtools.git"
+    "url": "git+https://github.com/upspawn/wavtools.git"
   },
   "bugs": {
-    "url": "https://github.com/alexerm/wavtools/issues"
+    "url": "https://github.com/upspawn/wavtools/issues"
   },
-  "homepage": "https://github.com/alexerm/wavtools#readme"
+  "homepage": "https://github.com/upspawn/wavtools#readme",
+  "devDependencies": {
+    "rollup": "^2.79.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
