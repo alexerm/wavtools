@@ -203,16 +203,3 @@ Please ensure your PR description clearly describes the changes and their benefi
 ## License
 
 WavTools is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-
-```
-
-### Explanation
-
-- **Features**: Expanded to provide more context on what each feature offers.
-- **Installation**: Added npm installation command.
-- **Usage**: Provided a basic example to help users get started quickly.
-- **Documentation**: Suggested a link to detailed documentation.
-- **Contributing**: Included a section for contributors.
-- **License**: Specified the license type.
-- **Contact**: Added a contact section for support.
