@@ -2,6 +2,9 @@
 
 WavTools is a comprehensive JavaScript library for browser-based audio recording, streaming, and analysis. It provides powerful tools for capturing audio input, managing playback streams, and extracting frequency domain data, making it ideal for developers working on real-time audio applications. This is a fork of wavtools originally created by Keith Horwood - while the original repository is no longer available, the code was discovered in the openai/openai-realtime-console repository.
 
+[![npm version](https://badge.fury.io/js/wavtools.svg)](https://badge.fury.io/js/wavtools)
+
+
 
 ## Features
 
