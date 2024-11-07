@@ -1,11 +1,11 @@
 {
-  "name": "@upspawn/wavtools",
-  "version": "0.1.0",
+  "name": "wavtools",
+  "version": "0.1.2",
   "description": "A comprehensive audio processing library for browser-based audio recording, streaming, and analysis",
   "type": "module",
-  "main": "index.js",
-  "module": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/wavtools.umd.js",
+  "module": "dist/wavtools.esm.js",
+  "types": "dist/wavtools.d.ts",
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no tests specified\" && exit 1"
@@ -29,9 +29,13 @@
   },
   "homepage": "https://github.com/upspawn/wavtools#readme",
   "devDependencies": {
-    "rollup": "^2.79.2",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-terser": "^7.0.2"
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "rollup": "^3.29.5",
+    "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
   }
 }
