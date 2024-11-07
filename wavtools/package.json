@@ -1,0 +1,30 @@
+{
+  "name": "wavtools",
+  "version": "0.1.0",
+  "description": "A comprehensive audio processing library for browser-based audio recording, streaming, and analysis",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "keywords": [
+    "audio",
+    "wav",
+    "recording",
+    "streaming",
+    "audio-analysis",
+    "web-audio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexerm/wavtools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexerm/wavtools/issues"
+  },
+  "homepage": "https://github.com/alexerm/wavtools#readme"
+}
