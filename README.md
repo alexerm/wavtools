@@ -4,6 +4,13 @@ WavTools is a comprehensive JavaScript library for browser-based audio recording
 
 [![npm version](https://badge.fury.io/js/wavtools.svg)](https://badge.fury.io/js/wavtools)
 
+# Deprecation Notice
+
+This repository is no longer maintained. The original author of WavTools, Keith Horwood, has resumed active development and now maintains the official repository at [keithwhor/wavtools](https://github.com/keithwhor/wavtools).
+
+You can still find the latest version on [npm](https://www.npmjs.com/package/wavtools).
+
+Please transition to the official repository for the latest updates, improvements, and support. Thank you for using WavTools!
 
 
 ## Features
